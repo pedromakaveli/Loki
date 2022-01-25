@@ -187,7 +187,7 @@ body {
 
   .catalogo-lista,
   .info-catalogo {
-    justify-content: start;
+    justify-content: center;
 
     max-width: 100vw;
   }
@@ -208,12 +208,8 @@ body {
   }
 
   .buttons-catalogo {
-    flex: 1;
-  }
-
-  .btn-dark,
-  .btn-blue {
-    flex: 1;
+    display: grid !important;
+    grid-template-columns: 1fr;
   }
 }
 
