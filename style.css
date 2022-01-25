@@ -90,6 +90,7 @@ body {
   margin-top: 45px;
   display: flex;
   flex-wrap: wrap;
+  flex: 1;
   gap: 113px;
   align-items: center;
 }
@@ -135,6 +136,10 @@ body {
     justify-content: center;
   }
 
+  .catalogo {
+    margin-top: 100px;
+  }
+
   .catalogo-lista {
     gap: 75px;
   }
@@ -154,8 +159,49 @@ body {
 }
 
 @media (max-width: 500px) {
+  .texto-intro {
+    text-align: center;
+  }
+
   .catalogo-lista {
     gap: 25px;
+  }
+
+  .info-catalogo p {
+    max-width: 70ch;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .catalogo-lista,
+  .info-catalogo {
+    justify-content: start;
+
+    max-width: 100vw;
+  }
+
+  .ano,
+  .duracao {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .avaliacao img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .catalogo-bg {
+    padding: 2rem;
+  }
+
+  .buttons-catalogo {
+    flex: 1;
+  }
+
+  .btn-dark,
+  .btn-blue {
+    flex: 1;
   }
 }
 
