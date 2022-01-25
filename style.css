@@ -159,6 +159,18 @@ body {
 }
 
 @media (max-width: 500px) {
+  .conteudo-bg {
+    padding: 1rem;
+  }
+
+  .conteudo-bg {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.616),
+        rgba(0, 0, 0, 0.541)
+      ),
+      url("img/imagemobile.png");
+  }
+
   .texto-intro {
     text-align: center;
   }
