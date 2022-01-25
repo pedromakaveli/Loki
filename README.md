@@ -11,9 +11,9 @@
 </ul>
 
 <h2>Veja você mesmo do seu dispositivo: </h2>
-<br />
-
 <a href="http://pedromakaveli.github.io/Loki">Veja no seu Navegador</a>
+
+<br />
 
 
 <img src="https://i.imgur.com/5SZVPBo.png"/>
